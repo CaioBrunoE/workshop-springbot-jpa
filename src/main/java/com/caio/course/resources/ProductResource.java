@@ -14,7 +14,7 @@ import com.caio.course.entities.Product;
 import com.caio.course.services.ProductService;
 
 @RestController
-@RequestMapping(value ="/{products}")
+@RequestMapping(value ="/products")
 public class ProductResource {
 
 	@Autowired
